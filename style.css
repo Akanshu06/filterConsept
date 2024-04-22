@@ -1,10 +1,10 @@
-#header {
+.container1 {
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid gray;
   }
   
-  #header input {
+  .container1 input {
     width: 30%;
     border: 2px solid gray;
     border-radius: 5px;
@@ -33,7 +33,6 @@
     border: none;
     border-radius: 5px;
     margin-top: 5px;
-    margin-left: 5px;
     background-color: yellowgreen;
   }
   
@@ -42,12 +41,12 @@
     background-color: pink;
     padding: 5px;
     margin: 0 30px;
-    width: 50%;
+    width: 30%;
     border-radius: 5px;
   }
   
   li {
-    font-size: 20px;
+    font-size: 10px;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
@@ -57,7 +56,7 @@
     align-items: flex-start;
   }
   
-  .delete-btn {
+  .button-btn {
     align-self: flex-end;
     background-color: tomato;
     border: none;
@@ -73,9 +72,3 @@
     padding: 5px 10px;
     margin-top: 5px;
   }
-  
-  p {
-    margin: 0;
-    font-size: 15px;
-  }
-  
